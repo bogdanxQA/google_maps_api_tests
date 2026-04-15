@@ -36,7 +36,7 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/ТВОЙ_ПРОФИЛЬ/google_maps_api_tests.git
+git clone https://github.com/bogdanxQA/google_maps_api_tests.git
 cd google_maps_api_tests
 ```
 
