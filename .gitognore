@@ -1,0 +1,12 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Логи
+logs/
+*.log
+
+# Кэш Python и pytest
+__pycache__/
+.pytest_cache/
