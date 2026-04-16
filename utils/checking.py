@@ -7,8 +7,8 @@ class Checking():
     """Метод для проверки статус кода"""
     @staticmethod
     def check_status_code(response: Response, status_code):
-        assert status_code == response.status_code, f'Провал! Статус код {status_code} не равен {response.status_code}'
-        print(f'Успешно! Статус код:{status_code}')
+        assert status_code == response.status_code, f'Провал! Статус код {response.status_code} не соответствует ожидаемому: {status_code}'
+        print(f'Успешно! Статус код: {response.status_code} соответствует ожидаемому {status_code}')
 
     """"Проверка обязательных полей в ответе"""
     @staticmethod

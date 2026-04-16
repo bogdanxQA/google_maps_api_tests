@@ -10,3 +10,7 @@ logs/
 # Кэш Python и pytest
 __pycache__/
 .pytest_cache/
+
+# IDE
+.vscode/
+.idea/
